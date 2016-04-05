@@ -49,7 +49,7 @@ else
               :code           => stubbed_response.status.code,
               :status_message => stubbed_response.status.message,
               :headers        => stubbed_response_headers,
-              :response_body           => stubbed_response.body,
+              :response_body  => stubbed_response.body,
               :effective_url  => stubbed_response.adapter_metadata.fetch('effective_url', request.url),
               :mock           => true
           end
